@@ -16,6 +16,13 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func clearLabel(_ sender: UIButton) {
+        
+        print("The Clear Button has been pressed")
+        
+        theLabel.text = "fanoosh"
+        
+    }
     @IBOutlet weak var theLabel: UILabel!
     
 }
