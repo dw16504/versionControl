@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Version Controll" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1wt-bu-hgp">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Version Control" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1wt-bu-hgp">
                                 <rect key="frame" x="101" y="176" width="191" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="ajo-Zp-etl"/>
@@ -38,6 +38,9 @@
                             <constraint firstItem="1wt-bu-hgp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uiD-fm-4Gr"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="theLabel" destination="1wt-bu-hgp" id="gpV-KW-rg1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
