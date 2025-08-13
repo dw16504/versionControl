@@ -27,6 +27,10 @@ class ViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         print("The view is appearing")
+
+        print("This is a modification done remotely, this shoudl cause the live project to be out synch")
+
+        
     }
     
     
