@@ -25,5 +25,11 @@ class ViewController: UIViewController {
     }
     @IBOutlet weak var theLabel: UILabel!
     
+    override func viewWillAppear(_ animated: Bool) {
+        print("The view is appearing")
+    }
+    
+    
+    
 }
 
