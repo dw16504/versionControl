@@ -25,7 +25,12 @@ class ViewController: UIViewController {
     }
     @IBOutlet weak var theLabel: UILabel!
     
+    
+    // There shoudl be a change here.
+    
     override func viewWillAppear(_ animated: Bool) {
+        
+        print("This change was made locally.")
         print("The view is appearing")
     }
     
